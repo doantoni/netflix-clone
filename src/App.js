@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-     <h1>This is a Netflix Clone</h1>
+     <h1>A Netflix Clone</h1>
     </div>
   );
 }
