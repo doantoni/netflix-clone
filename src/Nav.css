@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 20px;
+  z-index: 1;
+  transition: 0.5s;
+  background: linear-gradient(180deg, #111, rgba(17, 17, 17, 0));
+  /*   background-color: black; */
+}
+
+.nav__logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+.nav__avatar {
+  width: 35px;
+  object-fit: contain;
+  position: relative;
+  right: 50px;
+}
+
+.nav__black {
+  background-color: #111;
+}
